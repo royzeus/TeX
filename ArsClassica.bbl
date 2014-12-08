@@ -1,0 +1,105 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{bringhurst:elements}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bringhurst}{B.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Hartley \& Marks}%
+  }
+  \strng{namehash}{BR1}
+  \strng{fullhash}{BR1}
+  \field{sortinit}{B}
+  \field{title}{The Elements of Typographic Style}
+  \list{location}{1}{%
+    {Point Roberts, Washington, USA}%
+  }
+  \field{year}{1992}
+\endentry
+
+\entry{miede:classicthesis}{manual}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Miede}{M.}%
+     {André}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MA1}
+  \strng{fullhash}{MA1}
+  \field{sortinit}{M}
+  \field{title}{A Classic Thesis style}
+  \verb{url}
+  \verb http://www.ctan.org/tex-archive/macros/latex/contrib/classicthesis/Clas
+  \verb sicThesis.pdf
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{pantieri:classicthesis}{manual}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Pantieri}{P.}%
+     {Lorenzo}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PL1}
+  \strng{fullhash}{PL1}
+  \field{sortinit}{P}
+  \field{note}{in Italian}
+  \field{title}{Introduzione allo stile \classicthesis}
+  \verb{url}
+  \verb http://www.lorenzopantieri.net/LaTeX_files/ClassicThesis.pdf
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{pantieri:art}{manual}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Pantieri}{P.}%
+     {Lorenzo}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gordini}{G.}%
+     {Tommaso}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PLGT1}
+  \strng{fullhash}{PLGT1}
+  \field{sortinit}{P}
+  \field{note}{in Italian}
+  \field{title}{L'arte di scrivere con \LaTeX}
+  \verb{url}
+  \verb http://www.lorenzopantieri.net/LaTeX_files/ArteLaTeX.pdf
+  \endverb
+  \field{year}{2012}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
